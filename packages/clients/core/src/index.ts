@@ -1058,7 +1058,7 @@ class Connector implements IConnector {
       if (isMobile() && this._signingMethods.includes(request.method)) {
         const mobileLinkUrl = getLocal(mobileLinkChoiceKey);
         if (mobileLinkUrl) {
-          window.location.href = mobileLinkUrl.href;
+          // window.location.href = mobileLinkUrl.href;
         }
       }
     });
